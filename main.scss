@@ -1,0 +1,29 @@
+body {
+    color: black;
+}
+
+.box {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+    padding: 10px;
+}
+
+.box1 { background: blue; }
+.box2 { background: yellow; }
+.box3 { background: orange; }
+.box4 { background: purple; }
+.box5 { background: green; }
+.box6 { background: gray; }
+.box6 { background: red; }
+.box7 { background: pink; }
+.box8 { background: violet; }
+.box9 { background: #ddd; }
+.box10 { background: #ccc; }
+
+.container {
+    display: flex;
+    border: 10px solid red;
+    height: 100vh; //vh = viewport height
+}
