@@ -22,8 +22,33 @@ body {
 .box9 { background: #ddd; }
 .box10 { background: #ccc; }
 
+
+//Main-axis: Default - (left-right)
+//Cross-axis: Default - (top-bottom)
 .container {
     display: flex;
-    border: 10px solid red;
-    height: 100vh; //vh = viewport height
+    border: 10px solid goldenrod;
+    min-height: 100vh; //vh = viewport height
+    //flex-direction: row; //Default of flex container
+    //flex-direction: column;
+    //flex-direction: row-reverse;
+    //flex-direction: column-reverse;
+    //flex-wrap: wrap; //Will wrap based on the width of container and flex items
+    
+    // flex-wrap: wrap
+    // - Keeps flex items width
+    // - Wraps based on width of container
+    // - Flex items height depends upon the number of items and their width.
+    //   There will be multiple rows of flex items with a total hight
+    //   equal to the height of the container
+
+    
+
 }
+
+
+
+.box {
+    //width: 33.33333333333%;
+}
+
